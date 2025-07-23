@@ -11,9 +11,3 @@ body {
   font-style: normal;
   font-display: swap;
 }
-
-p {
-  color: #eaf9fb !important;
-  font-size: 200px;
-  z-index: 999;
-}

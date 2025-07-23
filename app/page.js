@@ -11,8 +11,7 @@ const page = () => {
         patternRefreshInterval={2}
         patternAlpha={15}
       />
-      <p className="!font-stretch-ultra-expanded">P</p>
-      <p>ORTFOLIO</p>
+      <p className="text-[#EAF9FB] z-50 text-[200px]">PORTFOLIO</p>
     </main>
   );
 };
