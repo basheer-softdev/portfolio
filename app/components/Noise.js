@@ -71,7 +71,7 @@ const Noise = ({
 
   return (
     <canvas
-      className="pointer-events-none absolute inset-0 w-full h-full bg-black/90"
+      className="pointer-events-none absolute inset-0 w-full h-full bg-[#1C1C1C]"
       ref={grainRef}
       style={{ imageRendering: "pixelated" }}
     />

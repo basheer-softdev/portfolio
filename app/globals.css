@@ -14,4 +14,10 @@
 
 .portfolio {
   font-family: "MyFont", sans-serif;
+  font-size: 12vw;
+}
+
+.para-1 {
+  font-family: "MyFont", sans-serif;
+  font-size: 12.8vw;
 }

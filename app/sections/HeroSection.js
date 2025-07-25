@@ -13,9 +13,7 @@ const HeroSection = () => {
         patternAlpha={15}
       />
       {/* <Navbar /> */}
-      <p className="portfolio text-[#EAF9FB] z-50 text-[12vw] sm:text-[12.5vw] lg:text[13vw] 2xl:text-[13.4vw]">
-        PORTFOLIO
-      </p>
+      <p className="portfolio text-[#EAF9FB] z-50">PORTFOLIO</p>
     </div>
   );
 };
