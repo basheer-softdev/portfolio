@@ -1,7 +1,6 @@
 import React from "react";
 import Noise from "../components/Noise";
-import Navbar from "../components/Navbar";
-
+import Image from "next/image";
 const HeroSection = () => {
   return (
     <div className="hero-section relative flex justify-center items-center w-full h-screen p-8">
@@ -12,8 +11,8 @@ const HeroSection = () => {
         patternRefreshInterval={2}
         patternAlpha={15}
       />
-      {/* <Navbar /> */}
-      <p className="portfolio text-[#EAF9FB] z-50">PORTFOLIO</p>
+      {/* <p className="portfolio text-[#EAF9FB] z-50">PORTFOLIO</p> */}
+      <Image src="/image.svg" alt="" className="z-50 w-full" width={1000} height={200}/>
     </div>
   );
 };
