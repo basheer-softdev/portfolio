@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
-body {
-  font-family: "MyFont", sans-serif;
-}
-
 @font-face {
   font-family: "MyFont";
   src: url("/fonts//Joyride.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+.hero-section {
+  padding: clamp(16px, 4vw, 32px);
+}
+
+.portfolio {
+  font-family: "MyFont", sans-serif;
 }

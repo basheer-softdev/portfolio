@@ -1,18 +1,13 @@
 import React from "react";
-import Noise from "./components/Noise";
+import HeroSection from "./sections/HeroSection";
+import RepeatedText from "./components/RepeatedText";
 
 const page = () => {
   return (
-    <main className="!flex !justify-center !items-center !w-full !h-screen">
-      <Noise
-        patternSize={250}
-        patternScaleX={1}
-        patternScaleY={1}
-        patternRefreshInterval={2}
-        patternAlpha={15}
-      />
-      <p className="text-[#EAF9FB] z-50 text-[200px]">PORTFOLIO</p>
-    </main>
+    <div className="overflow-hidden">
+      <HeroSection />
+      {/* <RepeatedText /> */}
+    </div>
   );
 };
 
