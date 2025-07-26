@@ -11,7 +11,6 @@ const HeroSection = () => {
         patternRefreshInterval={2}
         patternAlpha={15}
       />
-      {/* <p className="portfolio text-[#EAF9FB] z-50">PORTFOLIO</p> */}
       <Image src="/image.svg" alt="" className="z-50 w-full" width={1000} height={200}/>
     </div>
   );

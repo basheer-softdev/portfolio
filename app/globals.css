@@ -8,7 +8,7 @@
   font-display: swap;
 }
 
-.hero-section {
+.hero-section, .contact-section {
   padding: clamp(16px, 4vw, 32px);
 }
 
